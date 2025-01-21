@@ -37,6 +37,16 @@
 .card3{
     background:linear-gradient(rgb(238,225,255,100%),rgb(255,255,255,0%)) ;
 }
+/* our stories card related bg-color  */
+.box-bg1{
+    background-color: #3CD8E8;
+}
+.box-bg2{
+    background-color: #95B226;
+}
+.box-bg3{
+    background-color: #5D58F0;
+}
 /* header section styles here  */
 /* nav rleated styles here  */
 .navber-menu{
@@ -144,8 +154,8 @@ nav li a{
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    height: 900px;
     text-align: center;
+
     
 
  }
@@ -215,6 +225,95 @@ nav li a{
    
     
 }
+/* our stories related section styles here  */
+.ourstories-container{
+    max-width: 100%;
+    background-image:url(../assets/bg.png) ,linear-gradient(0deg,rgba(254, 161, 1, 0.397),rgb(255,255,255,100%));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+.ourstories-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.ourstories-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,301px);
+    gap:18px;
+    margin: 0 auto;
+    width: 1160px;
+    height: 630px;
+    margin-top: 80px;
+   
+    
+}
+.ourstories-card{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.stories-image{
+    border-radius: 16px 16px 0 0;
+    
+}
+#card1{
+    grid-row: span 2;
+}
+.box-image{
+    position: relative;
+}
+.box-image button{
+    position: absolute;
+    top: calc(100% - 30px);
+    width:174px;
+    height: 47px;
+    border-radius:47px ;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#FFFFFF;
+    left: 3rem;
+}
+.stories-title{
+    margin:58px 38px ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.stories-descp{
+    width:433px;
+    height: 75px;
+    margin-left:38px ;
+    margin-bottom: 34px;
+    margin-right: 68px;
+    font-size: 1rem;
+    color:#666666;
+}
+.common-title{
+    font-size: 1rem;
+    width:214px;
+    height: 57px;
+    margin: 38px 28px 24px 28px;
+    font-weight: bold;
+    line-height: 28px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    width:197px;
+    height: 50px;
+    margin: 80px;
+    background-color: black;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+}
 /* small screen media query */
 @media screen and (max-width:576px){
     #menu-icon{
@@ -253,5 +352,22 @@ nav li a{
         font-size: 1.7rem;
         
     }
+    .ourstories-content{
+        
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+        width:100%;
+        height: 100%;
+        justify-items: center;
+        
+    }
+    #card1{
+        display: none;
+        
+    }
+    .icon{
+        padding:20px;
+    }
+
     
 }
