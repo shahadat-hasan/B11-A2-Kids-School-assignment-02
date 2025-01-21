@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* sharead styles here  */
+.display-flex{
+    display: flex;
+}
+.orange-color{
+    color:orange;
+}
+.sky-blue-color{
+    color:rgba(1, 172, 253, 1);
+}
+.halka-nil{
+    color: #05D4DF;
+}
+.nabu-blue{
+    color:#5D58EF;
+}
+/* header section styles here  */
+/* nav rleated styles here  */
+.navber-menu{
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 140px;
+
+}
+.logo{
+    align-items: center;
+    gap:17px;
+}
+.logo>img{
+    width:62px;
+    height: 62px;
+}
+.nav-logoname{
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: bold;
+}
+.nav-links{
+    gap: 30px;
+}
+nav li{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+nav li a{
+    text-decoration: none;
+     
+}
+.btn{
+    padding:15px 40px;
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: rgb(165, 110, 8);
+}
+#menu-icon{
+    display: none;
+}
+.horizental-roll{
+    display: none;
+    height: 2px ;
+    border: none;
+    background-color:orange;
+}
+/* small screen media query */
+@media screen and (max-width:576px){
+    #menu-icon{
+        display: block;
+    }
+    .hidden{
+        display: none;
+    }
+    
+    .navber-menu{
+        margin: 20px;
+    }
+    .horizental-roll{
+        display: block;
+    }
+    
+    
+}
