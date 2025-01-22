@@ -451,6 +451,7 @@ nav li a{
     .footer-container{
         flex-direction: column;
         gap:10px;
+        margin: 20px;
     }
     
     
