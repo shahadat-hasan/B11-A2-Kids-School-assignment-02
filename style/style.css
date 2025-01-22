@@ -160,8 +160,8 @@ nav li a{
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+   
 }
  .standard-heading{
     margin-top: 60px;
@@ -176,6 +176,7 @@ nav li a{
     gap:28px;
     margin-top: 80px;
     background-color: #FFFFFF;
+    text-align: center;
     
  }
  .standard-card{
