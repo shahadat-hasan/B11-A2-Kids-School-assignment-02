@@ -250,9 +250,7 @@ nav li a{
      ;
     gap:10px;
     margin: 70px auto;
-    max-width: 1160px;
-    
-    
+    width: 1160px;  
    
 }
 .ourstories-card{
@@ -260,7 +258,7 @@ nav li a{
     border-radius: 16px;
 }
 .stories-image{
-    max-width:100%;
+    width:100%;
     border-radius: 16px 16px 0px 0px;   
 }
 .storie-item-1{
@@ -443,7 +441,7 @@ nav li a{
         gap:10px;
         margin: 20px;
         justify-items: center;
-
+        align-items: center;
          
        
          
