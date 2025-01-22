@@ -328,6 +328,11 @@ nav li a{
     border-radius: 12px;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.button button:hover{
+    background-color: #808080;
 }
 /* footer section start here  */
 #footer{
