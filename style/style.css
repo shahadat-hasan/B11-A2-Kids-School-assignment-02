@@ -231,8 +231,6 @@ nav li a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
 
 .ourstories-title{
@@ -268,7 +266,7 @@ nav li a{
     grid-area: item-2;
 }
 .storie-item-3{
-    grid-area:item-3 ;
+    grid-area: item-3;
 }
 .storie-item-4{
     grid-area: item-4;
@@ -440,11 +438,7 @@ nav li a{
          'item-4 item-5'
          ;
         gap:10px;
-        width:100%;
-    }
-    .ourstories-container{
-        width:100%;
-        /* padding:200px; */
+       
     }
     #none{
         display: none;
