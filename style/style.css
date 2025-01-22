@@ -250,7 +250,7 @@ nav li a{
      ;
     gap:10px;
     margin: 70px auto;
-    width: 1160px;  
+    max-width: 1160px;  
    
 }
 .ourstories-card{
@@ -430,6 +430,7 @@ nav li a{
         font-size: 1.7rem;
         
     }
+
     .stories-image{
         width:100%;
     }
@@ -439,12 +440,11 @@ nav li a{
          'item-4 item-5'
          ;
         gap:10px;
-        margin: 20px;
-        justify-items: center;
-        align-items: center;
-         
-       
-         
+        width:100%;
+    }
+    .ourstories-container{
+        width:100%;
+        /* padding:200px; */
     }
     #none{
         display: none;
