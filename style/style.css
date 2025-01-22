@@ -219,14 +219,15 @@ nav li a{
 }
 /* our stories related section styles here  */
 .ourstories-container{
-    max-width: 100%;
+    width: 100%;
     background-image:url(../assets/bg.png) ,linear-gradient(0deg,rgba(254, 161, 1, 0.397),rgb(255,255,255,100%));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 60px;
-    flex-direction: column;
+    
+    
 }
+
 .ourstories-title{
     text-align: center;
     margin-top: 60px;
@@ -235,24 +236,40 @@ nav li a{
 }
 .ourstories-content{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,301px);
-    gap:18px;
-    margin: 0 auto;
-    width: 1160px;
-    height: 630px;
-    margin-top: 80px;
+    grid-template-areas:
+
+     'item-1 item-1 item-2 item-3'
+     'item-1 item-1 item-4 item-5'
+     ;
+    gap:10px;
+    margin: 70px auto;
+    max-width: 1160px;
+    
+    
+   
 }
 .ourstories-card{
     background-color: #FFFFFF;
     border-radius: 16px;
 }
 .stories-image{
-    border-radius: 16px 16px 0 0;
-    
+    max-width:100%;
+    border-radius: 16px 16px 0px 0px;   
 }
-#card1{
-    grid-row: span 2;
+.storie-item-1{
+    grid-area: item-1;
+}
+.storie-item-2{
+    grid-area: item-2;
+}
+.storie-item-3{
+    grid-area:item-3 ;
+}
+.storie-item-4{
+    grid-area: item-4;
+}
+.storie-item-5{
+    grid-area: item-5;
 }
 .box-image{
     position: relative;
@@ -308,7 +325,6 @@ nav li a{
 /* footer section start here  */
 #footer{
     max-width:100%;
-    /* height:519px; */
     background-color: #01ACFD;
     margin-top: 0px;
     display: flex;
@@ -404,17 +420,27 @@ nav li a{
         font-size: 1.7rem;
         
     }
-    .ourstories-content{
-        
-        grid-template-columns:repeat(2,1fr );
+    .stories-image{
         width:100%;
-        gap:20px;
-        
-     }
-    #card1{
+    }
+    .ourstories-content{
+         grid-template-areas: 
+         'item-2 item-3'
+         'item-4 item-5'
+         ;
+        gap:10px;
+        margin: 20px;
+        justify-items: center;
+
+         
+       
+         
+    }
+    #none{
         display: none;
         
     }
+
     .footer-container{
         flex-direction: column;
         gap:10px;
