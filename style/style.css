@@ -14,6 +14,12 @@
 .display-flex{
     display: flex;
 }
+marquee{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color:rgba(1, 172, 253, 1);
+}
 .orange-color{
     color:orange;
 }
@@ -134,7 +140,7 @@ nav li a{
     height: 575px;
 }
 .btn-primary{
-    padding:15px 40px;
+    padding:15px 30px;
     margin-top: 24px;
     background-color: black;
     color:#FFFFFF;
