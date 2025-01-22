@@ -160,8 +160,7 @@ nav li a{
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    text-align: center;
-   
+    text-align: center;  
 }
  .standard-heading{
     margin-top: 60px;
@@ -239,6 +238,7 @@ nav li a{
     font-size: 2.5rem;
     font-weight: bold;
 }
+/* ourstories-card */
 .ourstories-content{
     display: grid;
     grid-template-areas:
