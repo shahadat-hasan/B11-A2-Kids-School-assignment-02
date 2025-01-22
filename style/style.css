@@ -154,11 +154,9 @@ nav li a{
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    text-align: center;
-
-    
-
- }
+    align-items: center;
+    flex-direction: column;
+}
  .standard-heading{
     margin-top: 60px;
     font-size: 2.5rem;
@@ -208,22 +206,16 @@ nav li a{
 .read-more>a{
     text-decoration: none;
 }
-.fantawsome-icon-lessthen{
-    align-items: center;
-    justify-content: center;
-    margin-top: 80px;
-    gap:30px;
     
-   
-    
-}
 .icon{
+    width:80px;
+    height:80px;
     background-color: orange;
     color: #FFFFFF;
     border-radius: 100%;
-    padding:50px;
+    margin-top: 80px;
+    border: none;
    
-    
 }
 /* our stories related section styles here  */
 .ourstories-container{
@@ -233,6 +225,7 @@ nav li a{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 60px;
+    flex-direction: column;
 }
 .ourstories-title{
     text-align: center;
@@ -249,11 +242,9 @@ nav li a{
     width: 1160px;
     height: 630px;
     margin-top: 80px;
-   
-    
 }
 .ourstories-card{
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 16px;
 }
 .stories-image{
@@ -314,6 +305,68 @@ nav li a{
     font-size: 1rem;
     font-weight: 600;
 }
+/* footer section start here  */
+#footer{
+    max-width:100%;
+    /* height:519px; */
+    background-color: #01ACFD;
+    margin-top: 0px;
+    display: flex;
+}
+.footer-container{
+   width:1070px;
+   justify-content:space-between;
+   margin: 120px auto;
+   
+}
+.footer-img{
+    align-items: center;
+    max-width:299px;
+    height: 81px;
+    gap:10px;
+}
+.footer-img>img{
+   max-width:82px;
+   height: 82px;
+}
+.footer-image-title{
+   font-size:2.5rem ;
+   line-height: 39px;
+   color:#FFFFFF;
+   font-weight: bold;
+}
+.footer-img-description{
+    max-width: 399px;
+    height: 100px;
+    margin-top: 35px;
+    font-size: 1.25rem;
+    color:#FFFFFF;
+}
+.about-title{
+   color: #FFFFFF;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+.anchor-tag{
+    flex-direction: column;
+    gap:10px;
+    margin-top: 32px;
+}
+.anchor-tag>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.touch-title{
+   
+    font-size: 1.9rem;
+    line-height: 26px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.keep-icon{
+    margin-top: 30px;
+}
 /* small screen media query */
 @media screen and (max-width:576px){
     #menu-icon{
@@ -322,7 +375,6 @@ nav li a{
     .hidden{
         display: none;
     }
-    
     .navber-menu{
         margin: 20px;
     }
@@ -331,7 +383,6 @@ nav li a{
     }
     .student-form{
         flex-direction: column-reverse;
-        margin: 20px;
     }
     .student-content{
         text-align: center;
@@ -343,6 +394,7 @@ nav li a{
     }
     .studente-kids-img{
         width:100%;
+        
     }
     .standard-content{
         flex-direction: column;
@@ -354,19 +406,19 @@ nav li a{
     }
     .ourstories-content{
         
-        grid-template-columns:repeat(2,1fr);
-        gap:20px;
+        grid-template-columns:repeat(2,1fr );
         width:100%;
-        height: 100%;
-        justify-items: center;
+        gap:20px;
         
-    }
+     }
     #card1{
         display: none;
         
     }
-    .icon{
-        padding:20px;
+    .footer-container{
+        flex-direction: column;
+        gap:10px;
+        margin: 20px;
     }
 
     

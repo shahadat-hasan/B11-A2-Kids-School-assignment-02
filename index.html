@@ -53,7 +53,7 @@
     <!-- main section start here  -->
     <main>
         <!-- standard courriculum  -->
-        <section class="standard-container">
+        <section class="standard-container display-flex">
             <div class="standard-heading">
                 <h3>Standard Curriculum</h3>
             </div>
@@ -89,16 +89,14 @@
                     </div>
                 </div>
             </div>
-            <div class="fantawsome-icon-lessthen display-flex">
-                <div class="icon">
-                    <i class="fa-solid fa-less-than fa-4x"></i>
-                </div>
-                <div class="icon">
-                    <i class="fa-solid fa-greater-than fa-4x"></i>
-                </div>
+            <div>
+                <button class="icon"><i class="fa-solid fa-less-than fa-3x"></i></button>
+                <button class="icon"><i class="fa-solid fa-greater-than fa-3x"></i></button>
             </div>
+
         </section>
-        <section class="ourstories-container">
+        <!-- ourstories-card -->
+        <section class="ourstories-container display-flex">
             <h3 class="ourstories-title">Our Stories</h3>
             <div class="ourstories-content">
                 <div class="ourstories-card" id="card1">
@@ -115,7 +113,7 @@
                         collaborative environment, providing the...
                     </p>
                 </div>
-                <div class="ourstories-card">
+                <div class="ourstories-card" id="card2">
                     <div class="box-image">
                         <img src="./assets/story-2.png" alt="" class="stories-image">
                         <button class="secondary-btn box-bg2">November 19, 2019</button>
@@ -150,13 +148,47 @@
                         improve kids listening
                     </h2>
                 </div>
-                
+
             </div>
             <div class="button">
                 <button>View All</button>
             </div>
         </section>
     </main>
+    <!-- footer section star here  -->
+    <footer id="footer">
+        <div class="footer-container display-flex">
+            <div class="footer-content">
+                <div class="footer-img display-flex">
+                    <img src="./assets/footer-logo.png" alt="">
+                    <h2 class="footer-image-title">Kids Education</h2>
+                </div>
+                <div class="footer-img-description">
+                    <p class="image-discription">Pizza ipsum dolor meat lovers buffalo. Deep dolor roll melted bacon
+                        Bianca pan bacon pineapple Aussie. Mayo rib sauce Hawaiian meatball.</p>
+                </div>
+            </div>
+            <div class="about">
+                <h1 class="about-title">About School</h1>
+                <div class="anchor-tag display-flex">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Facilities</a>
+                    <a href="">Admission</a>
+                </div>
+            </div>
+            <div class="keep-intouch ">
+        
+                    <h1 class="touch-title">Keep In Touch</h1>
+                    <img src="./assets/fb.png" alt="fb" class="keep-icon">
+                    <img src="./assets/dribble.png" alt="dribble" class="keep-icon">
+                    <img src="./assets/twitter.png" alt="twitter" class="keep-icon">
+                    <img src="./assets/google+.png" alt="google" class="keep-icon">
+                </div>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
