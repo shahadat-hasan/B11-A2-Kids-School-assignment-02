@@ -391,6 +391,7 @@ nav li a{
 .keep-icon{
     margin-top: 30px;
 }
+/* footer section ends  */
 /* small screen media query */
 @media screen and (max-width:576px){
     #menu-icon{
@@ -454,3 +455,4 @@ nav li a{
     
     
 }
+/* media query ends  */
